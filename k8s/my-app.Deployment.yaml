@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: squad4-meme-generator
-        image: quay.io/levandrejev/squad4-meme-generator:local
+        image: quay.io/levandrejev/squad4-meme-generator:8bafa267f68029a34d842264e5a066bc295525fb
