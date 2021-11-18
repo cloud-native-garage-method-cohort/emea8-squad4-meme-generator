@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+tekton/base/git-credentials.Secret.yaml
+tekton/base/quay.Secret.yaml
