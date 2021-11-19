@@ -38,7 +38,7 @@ class MemeGenerator extends React.Component {
 
   componentDidMount() {
     fetch(
-      "http://squad4-meme-generator-backend-svc-squad4-meme-generator.itzroks-100000kr1k-aszhba-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud/memes"
+      "https://squad4-meme-generator-backend-svc-squad4-meme-generator.itzroks-100000kr1k-aszhba-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud/memes"
     )
       .then((response) => response.json())
       .then((response) => {
